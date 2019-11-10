@@ -1,11 +1,11 @@
 BlackThrone
 ======
 
-PHP BlackThrone Script An open source Alternative to burp collaboratorAn open source Alternative to burp collaborator
-PHP BlackThrone Script To detect websockets and HTTP traffic in the main website with provide some server header and client info.
+PHP BlackThrone Script An open source Alternative to burp collaborator
+BlackThrone created To detect websockets and HTTP traffic in the main website with provide some server header and client info.
 BlackThrone is web based tool to run on webservers with PHP . It will detect the visitor IP,Country,HEADERS ..., 
-It will be usefull to scan for Blind SSRF/XSS ,CORS
-Remember “For Educational Purposes Only” i'm responsable for any illegal uses of this
+It will be usefull to scan for Blind SSRF/XSS ,CORS ...
+Remember “For Educational Purposes Only” i'm responsable for any illegal uses of this (such as hijacking cookies)
 
 
 
