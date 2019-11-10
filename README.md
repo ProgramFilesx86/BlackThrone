@@ -8,11 +8,10 @@ It will be usefull to scan for Blind SSRF/XSS ,CORS
 Remember “For Educational Purposes Only” i'm responsable for any illegal uses of this
 
 
-###### Supported Distros:
-* Linux/Win/MAC ...
 
 
-**FB:** https://www.facebook.com/000xPlan
+*Twitter : https://twitter.com/CXXMIXCSII
+*FB: https://www.facebook.com/000xPlan
 
 ### Setup & Install:
 1. Open "mydb.php"
