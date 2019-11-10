@@ -10,8 +10,8 @@ Remember “For Educational Purposes Only” i'm responsable for any illegal use
 
 
 
-*Twitter : https://twitter.com/CXXMIXCSII
-*FB: https://www.facebook.com/000xPlan
+* Twitter : https://twitter.com/CXXMIXCSII
+* FB: https://www.facebook.com/000xPlan
 
 ### Setup & Install:
 1. Open "mydb.php"
