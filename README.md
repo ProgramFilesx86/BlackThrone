@@ -32,6 +32,8 @@ If you still have no clue about what to do follow these steps :
  Hunter.php : to detect the visitors infos
  Dashboard.php : to manages the visitors infos
  You must set it in webhosting server (such as godaddy) because it won't work in the local host
+ Don't make requests to another port number ,if your website is on HTTP make 80 and 443 for HTTPS...
+ I mean dont send request to https://BlackThrone.com:4444 
 
 
 ###### What else:
