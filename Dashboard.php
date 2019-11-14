@@ -1,5 +1,10 @@
 <?php
-
+/*
+* PHP Black Throne Script To detect websockets and HTTP traffic 
+*        An open source Alternative to burp collaborator
+*          You may use it to scan for Blind SSRF/XSS ,CORS
+*   You can also hijack cookies/session by xss and store'em in
+*/
 
 
 
@@ -11,7 +16,7 @@
 *      Aquatone report css (i've steal it from there)
 *      PHP community
 *      Everyone who helped me to get into hacking
-*      
+*      https://codepen.io/dope/pen/ZQWBeL
 */
 
 
@@ -23,7 +28,6 @@
 *  If you're reading this if this helped you don't ignore that message
 * Help me with some hacking Tips/Tricks or resources to gain my knowledge
 *         My facebook : https://www.facebook.com/000xPlan
-*            My twitter : https://twitter.com/CXXMIXCSII
 *              My Github : https://github.com/CXVVMVII
 *                    Made By @WhizzHandrixx
 */
@@ -206,13 +210,13 @@ $mysql_get = mysqli_query($db_con ,$q);
   </head>
   <body>
 <pre class="logo">
-<div class="content">
+<div class="content"  onmousewheel=location.reload()>
     ____  __           __      ________                        
    / __ )/ /___ ______/ /__   /_  __/ /_  _________  ____  ___ 
   / __  / / __ `/ ___/ //_/    / / / __ \/ ___/ __ \/ __ \/ _ \
  / /_/ / / /_/ / /__/ , <     / / / / / / /  / /_/ / / / /  __/
 /_____/_/\__,_/\___/_/|_|    /_/ /_/ /_/_/   \____/_/ /_/\___/  
-<weak>by <a href="https://twitter.com/CXXMIXCSII" target="_blank">@WhizzHundrixx</a></weak>
+<weak>by <a href="https://github.com/CXVVMVII" target="_blank" >@WhizzHundrixx</a></weak>
 </div>
 </pre>
 
@@ -314,6 +318,12 @@ while ($rows = mysqli_fetch_assoc($mysql_get)) {
 }
 ?>
 <!--
+/*
+* PHP Black Throne Script To detect websockets and HTTP traffic 
+*        An open source Alternative to burp collaborator
+*          You may use it to scan for Blind SSRF/XSS ,CORS
+*   You can also hijack cookies/session by xss and store'em in
+*/
 
 
 
@@ -336,7 +346,6 @@ while ($rows = mysqli_fetch_assoc($mysql_get)) {
 * If you're reading this if this helped you don't ignore that message
 * Help me with some hacking Tips/Tricks or resources to gain my knowledge
 *         My facebook : https://www.facebook.com/000xPlan
-*            My twitter : https://twitter.com/CXXMIXCSII
 *              My Github : https://github.com/CXVVMVII
 *                    Made By @WhizzHandrixx
 */
