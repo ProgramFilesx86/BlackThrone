@@ -1,10 +1,5 @@
 <?php
-/*
-* PHP Black Throne Script To detect websockets and HTTP traffic 
-*        An open source Alternative to burp collaborator
-*          You may use it to scan for Blind SSRF/XSS ,CORS
-*   You can also hijack cookies/session by xss and store'em in
-*/
+
 
 
 
@@ -24,13 +19,6 @@
 
 
 
-/*
-*  If you're reading this if this helped you don't ignore that message
-* Help me with some hacking Tips/Tricks or resources to gain my knowledge
-*         My facebook : https://www.facebook.com/000xPlan
-*              My Github : https://github.com/CXVVMVII
-*                    Made By @WhizzHandrixx
-*/
 
 
 
@@ -319,10 +307,10 @@ while ($rows = mysqli_fetch_assoc($mysql_get)) {
 ?>
 <!--
 /*
-* PHP Black Throne Script To detect websockets and HTTP traffic 
-*        An open source Alternative to burp collaborator
-*          You may use it to scan for Blind SSRF/XSS ,CORS
-*   You can also hijack cookies/session by xss and store'em in
+*         PHP Black Throne Script To detect websockets and HTTP traffic 
+*                 An open source Alternative to burp collaborator
+*                 You may use it to scan for Blind SSRF/XSS ,CORS
+*   You can also hijack cookies/tokens by xss or invalidated redirections and store'em in
 */
 
 
@@ -342,13 +330,6 @@ while ($rows = mysqli_fetch_assoc($mysql_get)) {
 
 
 
-/*
-* If you're reading this if this helped you don't ignore that message
-* Help me with some hacking Tips/Tricks or resources to gain my knowledge
-*         My facebook : https://www.facebook.com/000xPlan
-*              My Github : https://github.com/CXVVMVII
-*                    Made By @WhizzHandrixx
-*/
 
 
 -->
