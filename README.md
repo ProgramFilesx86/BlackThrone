@@ -10,8 +10,7 @@ Remember “For Educational Purposes Only” i'm responsable for any illegal use
 
 
 
-* Twitter : https://twitter.com/CXXMIXCSII
-* FB: https://www.facebook.com/000xPlan
+
 
 ### Setup & Install:
 1. Open "mydb.php"
@@ -36,13 +35,6 @@ If you still have no clue about what to do follow these steps :
  I mean dont send request to https://BlackThrone.com:4444 
 
 
-###### What else:
-If you're reading this if this helped you don't ignore that message
-Help me with some hacking Tips/Tricks or resources to gain my knowledge
-My facebook : https://www.facebook.com/000xPlan
-My twitter : https://twitter.com/CXXMIXCSII
-My Github : https://github.com/CXVVMVII
-Made By @WhizzHandrixx
 
 ###### Resources :
 *      https://freegeoip.app
