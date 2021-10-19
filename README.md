@@ -23,8 +23,11 @@ Remember “For Educational Purposes Only” i'm responsable for any illegal use
 If you still have no clue about what to do follow these steps :
 
 1. open your sql console a,d type the following lines :
-2. CREATE DATABASE dt;
-3. CREATE TABLE `dt`.`targets` ( `ip` VARCHAR(255) NOT NULL , `c_name` VARCHAR(255) NOT NULL , `region` VARCHAR(255) NOT NULL , `time zip` VARCHAR(255) NOT NULL , `c_code` VARCHAR(255) NOT NULL , `headers` VARCHAR(1000000) NOT NULL ) ENGINE = InnoDB;
+
+```
+mysql$ CREATE DATABASE dt;
+mysql$ CREATE TABLE `dt`.`targets` ( `ip` VARCHAR(255) NOT NULL , `c_name` VARCHAR(255) NOT NULL , `region` VARCHAR(255) NOT NULL , `time zip` VARCHAR(255) NOT NULL , `c_code` VARCHAR(255) NOT NULL , `headers` VARCHAR(1000000) NOT NULL ) ENGINE = InnoDB;
+```
 
 
 ### Usage:
